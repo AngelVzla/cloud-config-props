@@ -1,2 +1,2 @@
 zuul.prefix:  /api
-zuul.routes.licensingservice: /licensingoverriden/**
+zuul.routes.licensingservice: /licensingoverriden2/**
