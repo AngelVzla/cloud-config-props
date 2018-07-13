@@ -1,2 +1,7 @@
 zuul.prefix:  /api
 zuul.routes.licensingservice: /licensingoverriden2/**
+#Sets the default timeout behavior for timeouts
+hystrix.command.default.execution.isolation.thread.timeoutinmilliseconds: 2000
+
+#This overrides the default behavior for a given service name
+hystrix.command.licensingservice.execution.isolation.thread.timeoutinmilliseconds: 6000
